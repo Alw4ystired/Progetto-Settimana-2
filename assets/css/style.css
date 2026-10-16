@@ -107,6 +107,9 @@ button {
   text-decoration: underline;
 }
 
+.centered {
+  text-align: center;
+}
 
 .cart-btn {
   background-color: #232F3E;
@@ -122,4 +125,161 @@ button {
 
 .cart-btn:hover {
   background-color: #37475a;
+}
+
+.hero {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+}
+
+
+.categorie, .prodotti {
+    padding: 25px 15px;
+    font-size: 0; 
+}
+
+.categorie, .prodotti h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-size: 24px; 
+}
+
+.card-categoria {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    margin-right: 1%;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 0 0 5px 0;
+    font-size: 16px;
+}
+
+
+.card-categoria:last-child {
+    margin-right: 0;
+}
+
+.box-categoria {
+    height: 130px;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.box-categoria h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.box-nera {
+    background-color: #232f3e;
+}
+
+.box-arancione {
+    background-color: #d2691e;
+}
+
+.box-blu {
+    background-color: #1e6bb8;
+}
+
+.box-verde {
+    background-color: #1e7a5a;
+}
+
+.card-categoria h4 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px 5px 10px;
+}
+
+.link-scopri {
+    color: #007185;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.link-scopri:hover {
+    text-decoration: underline;
+}
+
+
+.card-prodotto {
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    margin-right: 1%;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card-prodotto:last-child {
+    margin-right: 0;
+}
+
+.box-immagine {
+    background-color: #f0f0f0;
+    height: 140px;
+    padding: 20px;
+}
+
+.box-immagine h3 {
+    font-size: 28px;
+    color: #333333;
+}
+
+.card-prodotto h4 {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    padding: 10px 5px;
+}
+
+.stelle {
+    color: #ff9900;
+    font-size: 14px;
+    text-align: left;
+    padding: 0 5px;
+}
+
+.prezzo {
+    color: #b12704;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px 5px 10px 5px;
+}
+
+.btn-acquista {
+    background-color: #ffd814;
+    border: 1px solid #fcd200;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-acquista:hover {
+    background-color: #f7ca00;
 }
