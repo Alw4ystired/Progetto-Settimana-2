@@ -139,7 +139,23 @@ for (const prodotto of prodotti) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+function stelline(rating) {
+    let stelline = '';
 
+    for (let i = 0; i < rating; i++) {
+        stelline += '★';
+    }
+
+    for (let i = rating; i < 5; i++) {
+        stelline += '☆';
+    }
+
+    return stelline;
+}
+
+for (let i = 0; i < prodotti.length; i++) {
+    console.log(`${prodotti[i].name}: rating ${prodotti[i].rating} → "${stelline(prodotti[i].rating)}"`);
+}
 
 /* VERSIONE INTERMEDIA — Filtro per categoria
    Funzione che riceve il parametro categoria e filtra l'array prodotti mostrando solo i prodotti della categoria ricevuta
