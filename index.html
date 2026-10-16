@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="it">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,184 +7,180 @@
 
 <body>
 
-  <body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="centered-header">
+      <div class="logo">amazon</div>
 
-    <header class="header">
-      <div class="centered-header">
-        <div class="logo">amazon</div>
-
-        <div class="search-box">
-          <input type="text" name="ricerca" class="search-input" placeholder="Cerca prodotti, categorie, brand...">
-          <button class="search-btn">Cerca</button>
-        </div>
-
-        <div class="nav">
-          <a href="javascript:void(0);" class="nav-link">Account</a>
-          <a href="javascript:void(0);" class="nav-link">Ordini</a>
-        </div>
-
-        <button class="cart-btn">Carrello (0)</button>
+      <div class="search-box">
+        <input type="text" name="ricerca" class="search-input" placeholder="Cerca prodotti, categorie, brand...">
+        <button class="search-btn">Cerca</button>
       </div>
-    </header>
-    <main>
 
-      <section class="hero">
-        <h1>Le offerte di oggi</h1>
-        <p>Sconti fino al 70% su elettronica, libri, casa e molto altro</p>
-      </section>
-      <br> <br>
-      <div class="title-categorie"></div>
+      <div class="nav">
+        <a href="javascript:void(0);" class="nav-link">Account</a>
+        <a href="javascript:void(0);" class="nav-link">Ordini</a>
+      </div>
+
+      <button class="cart-btn">Carrello (0)</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h1>Le offerte di oggi</h1>
+      <p>Sconti fino al 70% su elettronica, libri, casa e molto altro</p>
+    </section>
+
+    <section class="categorie">
       <h2>Categorie</h2>
-      </div>
-      <div class="centered">
-        <section class="categorie">
 
-          <div class="card-categoria">
-            <div class="box-categoria box-nera">
-              <h3>Elettronica</h3>
-            </div>
-            <h4>Elettronica</h4>
-            <a href="javascript:void(0);" class="link-scopri">Scopri di più</a>
-          </div>
-
-          <div class="card-categoria">
-            <div class="box-categoria box-arancione">
-              <h3>Libri</h3>
-            </div>
-            <h4>Libri</h4>
-            <a href="javascript:void(0);" class="link-scopri">Scopri di più</a>
-          </div>
-
-          <div class="card-categoria">
-            <div class="box-categoria box-blu">
-              <h3>Abbigliamento</h3>
-            </div>
-            <h4>Abbigliamento</h4>
-            <a href="javascript:void(0);" class="link-scopri">Scopri di più</a>
-          </div>
-
-          <div class="card-categoria">
-            <div class="box-categoria box-verde">
-              <h3>Casa</h3>
-            </div>
-            <h4>Casa</h4>
-            <a href="javascript:void(0);" class="link-scopri">Scopri di più</a>
-          </div>
-      </div>
-      </section>
-
-      <section class="prodotti">
-        <h2>I più venduti</h2>
-
-        <div class="card-prodotto">
-          <div class="box-immagine">
-            <h3>Cuffie</h3>
-          </div>
-          <h4>Cuffie wireless con cancellazione del rumore</h4>
-          <p class="stelle">★★★★★ (4.2)</p>
-          <p class="prezzo">€ 89,99</p>
-          <button class="btn-acquista">Aggiungi al carrello</button>
+      <div class="card-categoria">
+        <div class="box-categoria box-nera">
+          <h3>Elettronica</h3>
         </div>
-
-        <div class="card-prodotto">
-          <div class="box-immagine">
-            <h3>Tablet</h3>
-          </div>
-          <h4>Tablet 10 pollici 64GB</h4>
-          <p class="stelle">★★★★★ (4.7)</p>
-          <p class="prezzo">€ 199,00</p>
-          <button class="btn-acquista">Aggiungi al carrello</button>
-        </div>
-
-        <div class="card-prodotto">
-          <div class="box-immagine">
-            <h3>Libro</h3>
-          </div>
-          <h4>Il romanzo dell'anno</h4>
-          <p class="stelle">★★★★☆ (4.0)</p>
-          <p class="prezzo">€ 14,90</p>
-          <button class="btn-acquista">Aggiungi al carrello</button>
-        </div>
-
-        <div class="card-prodotto">
-          <div class="box-immagine">
-            <h3>Zaino</h3>
-          </div>
-          <h4>Zaino da viaggio 30L impermeabile</h4>
-          <p class="stelle">★★★★☆ (4.3)</p>
-          <p class="prezzo">€ 49,99</p>
-          <button class="btn-acquista">Aggiungi al carrello</button>
-        </div>
-
-        <div class="card-prodotto">
-          <div class="box-immagine">
-            <h3>Lampada</h3>
-          </div>
-          <h4>Lampada LED da scrivania orientabile</h4>
-          <p class="stelle">★★★☆☆ (3.8)</p>
-          <p class="prezzo">€ 29,50</p>
-          <button class="btn-acquista">Aggiungi al carrello</button>
-        </div>
-
-        <div class="card-prodotto">
-          <div class="box-immagine">
-            <h3>Smartwatch</h3>
-          </div>
-          <h4>Smartwatch fitness con GPS</h4>
-          <p class="stelle">★★★★☆ (4.4)</p>
-          <p class="prezzo">€ 119,00</p>
-          <button class="btn-acquista">Aggiungi al carrello</button>
-        </div>
-
-        <div class="card-prodotto">
-          <div class="box-immagine">
-            <h3>Mouse</h3>
-          </div>
-          <h4>Mouse ergonomico wireless</h4>
-          <p class="stelle">★★★★☆ (4.3)</p>
-          <p class="prezzo">€ 24,90</p>
-          <button class="btn-acquista">Aggiungi al carrello</button>
-        </div>
-
-        <div class="card-prodotto">
-          <div class="box-immagine">
-            <h3>Caffettiera</h3>
-          </div>
-          <h4>Caffettiera moka 6 tazze</h4>
-          <p class="stelle">★★★★★ (4.6)</p>
-          <p class="prezzo">€ 22,00</p>
-          <button class="btn-acquista">Aggiungi al carrello</button>
-        </div>
-      </section>
-
-    </main>
-
-    <footer class="footer">
-
-      <div class="col-footer">
-        <h3>Chi siamo</h3>
-        <a href="javascript:void(0);" class="link-footer">Lavora con noi</a>
-        <a href="javascript:void(0);" class="link-footer">Investitori</a>
-        <a href="javascript:void(0);" class="link-footer">Sostenibilità</a>
+        <h4>Elettronica</h4>
+        <a href="javascript:void(0);" class="link-scopri">Scopri di più</a>
       </div>
 
-      <div class="col-footer">
-        <h3>Aiuto</h3>
-        <a href="javascript:void(0);" class="link-footer">Centro assistenza</a>
-        <a href="javascript:void(0);" class="link-footer">Spedizioni</a>
-        <a href="javascript:void(0);" class="link-footer">Resi e rimborsi</a>
+      <div class="card-categoria">
+        <div class="box-categoria box-arancione">
+          <h3>Libri</h3>
+        </div>
+        <h4>Libri</h4>
+        <a href="javascript:void(0);" class="link-scopri">Scopri di più</a>
       </div>
 
-      <div class="col-footer">
-        <h3>Connettiti</h3>
-        <a href="javascript:void(0);" class="link-footer">Facebook</a>
-        <a href="javascript:void(0);" class="link-footer">Instagram</a>
-        <a href="javascript:void(0);" class="link-footer">YouTube</a>
+      <div class="card-categoria">
+        <div class="box-categoria box-blu">
+          <h3>Abbigliamento</h3>
+        </div>
+        <h4>Abbigliamento</h4>
+        <a href="javascript:void(0);" class="link-scopri">Scopri di più</a>
       </div>
 
-    </footer>
+      <div class="card-categoria">
+        <div class="box-categoria box-verde">
+          <h3>Casa</h3>
+        </div>
+        <h4>Casa</h4>
+        <a href="javascript:void(0);" class="link-scopri">Scopri di più</a>
+      </div>
+    </section>
 
-    <script src="assets/js/script.js"></script>
-  </body>
+    <section class="prodotti">
+      <h2>I più venduti</h2>
+
+      <div class="card-prodotto">
+        <div class="box-immagine">
+          <h3>Cuffie</h3>
+        </div>
+        <h4>Cuffie wireless con cancellazione del rumore</h4>
+        <p class="stelle">★★★★★ (4.2)</p>
+        <p class="prezzo">€ 89,99</p>
+        <button class="btn-acquista">Aggiungi al carrello</button>
+      </div>
+
+      <div class="card-prodotto">
+        <div class="box-immagine">
+          <h3>Tablet</h3>
+        </div>
+        <h4>Tablet 10 pollici 64GB</h4>
+        <p class="stelle">★★★★★ (4.7)</p>
+        <p class="prezzo">€ 199,00</p>
+        <button class="btn-acquista">Aggiungi al carrello</button>
+      </div>
+
+      <div class="card-prodotto">
+        <div class="box-immagine">
+          <h3>Libro</h3>
+        </div>
+        <h4>Il romanzo dell'anno</h4>
+        <p class="stelle">★★★★☆ (4.0)</p>
+        <p class="prezzo">€ 14,90</p>
+        <button class="btn-acquista">Aggiungi al carrello</button>
+      </div>
+
+      <div class="card-prodotto">
+        <div class="box-immagine">
+          <h3>Zaino</h3>
+        </div>
+        <h4>Zaino da viaggio 30L impermeabile</h4>
+        <p class="stelle">★★★★☆ (4.3)</p>
+        <p class="prezzo">€ 49,99</p>
+        <button class="btn-acquista">Aggiungi al carrello</button>
+      </div>
+
+      <div class="card-prodotto">
+        <div class="box-immagine">
+          <h3>Lampada</h3>
+        </div>
+        <h4>Lampada LED da scrivania orientabile</h4>
+        <p class="stelle">★★★☆☆ (3.8)</p>
+        <p class="prezzo">€ 29,50</p>
+        <button class="btn-acquista">Aggiungi al carrello</button>
+      </div>
+
+      <div class="card-prodotto">
+        <div class="box-immagine">
+          <h3>Smartwatch</h3>
+        </div>
+        <h4>Smartwatch fitness con GPS</h4>
+        <p class="stelle">★★★★☆ (4.4)</p>
+        <p class="prezzo">€ 119,00</p>
+        <button class="btn-acquista">Aggiungi al carrello</button>
+      </div>
+
+      <div class="card-prodotto">
+        <div class="box-immagine">
+          <h3>Mouse</h3>
+        </div>
+        <h4>Mouse ergonomico wireless</h4>
+        <p class="stelle">★★★★☆ (4.3)</p>
+        <p class="prezzo">€ 24,90</p>
+        <button class="btn-acquista">Aggiungi al carrello</button>
+      </div>
+
+      <div class="card-prodotto">
+        <div class="box-immagine">
+          <h3>Caffettiera</h3>
+        </div>
+        <h4>Caffettiera moka 6 tazze</h4>
+        <p class="stelle">★★★★★ (4.6)</p>
+        <p class="prezzo">€ 22,00</p>
+        <button class="btn-acquista">Aggiungi al carrello</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="col-footer">
+      <h3>Chi siamo</h3>
+      <a href="javascript:void(0);" class="link-footer">Lavora con noi</a>
+      <a href="javascript:void(0);" class="link-footer">Investitori</a>
+      <a href="javascript:void(0);" class="link-footer">Sostenibilità</a>
+    </div>
+
+    <div class="col-footer">
+      <h3>Aiuto</h3>
+      <a href="javascript:void(0);" class="link-footer">Centro assistenza</a>
+      <a href="javascript:void(0);" class="link-footer">Spedizioni</a>
+      <a href="javascript:void(0);" class="link-footer">Resi e rimborsi</a>
+    </div>
+
+    <div class="col-footer">
+      <h3>Connettiti</h3>
+      <a href="javascript:void(0);" class="link-footer">Facebook</a>
+      <a href="javascript:void(0);" class="link-footer">Instagram</a>
+      <a href="javascript:void(0);" class="link-footer">YouTube</a>
+    </div>
+
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
 
 </html>
