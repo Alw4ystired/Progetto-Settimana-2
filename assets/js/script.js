@@ -21,7 +21,7 @@ const prodotti = [
       name: 'Cuffie',
       category: 'Electronics',
       price: 89.99,
-      rating: 4,
+      rating: 5,
       image: 'Unavaible',
       avaible: 'Disponibile',
    },
@@ -37,7 +37,7 @@ const prodotti = [
       name: 'Libro',
       category: 'Books',
       price: 14.90,
-      rating: 4,
+      rating: 2,
       image: 'Unavaible',
       avaible: 'Disponibile',
    },
@@ -53,7 +53,7 @@ const prodotti = [
       name: 'Smartwatch',
       category: 'Electronics',
       price: 199.00,
-      rating: 4,
+      rating: 3,
       image: 'Unavaible',
       avaible: 'Non disponibile',
    },
@@ -69,7 +69,7 @@ const prodotti = [
       name: 'Caffettiera',
       category: 'House',
       price: 22.00,
-      rating: 4,
+      rating: 5,
       image: 'Unavaible',
       avaible: 'Disponibile',
    },
@@ -93,7 +93,7 @@ const prodotti = [
       name: 'Torcia',
       category: 'Electronics',
       price: 14.90,
-      rating: 3,
+      rating: 2,
       image: 'Unavaible',
       avaible: 'Disponibile',
    },
@@ -109,7 +109,7 @@ const prodotti = [
       name: 'Sedia',
       category: 'House',
       price: 24.99,
-      rating: 4,
+      rating: 5,
       image: 'Unavaible',
       avaible: 'Disponibile',
    },
@@ -163,28 +163,48 @@ for (let i = 0; i < prodotti.length; i++) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+function filtraPerCategoria(category) {
+    const filtrati = [];
+
+    for (let i = 0; i < prodotti.length; i++) {
+        if (prodotti[i].category === category) {
+            filtrati.push(prodotti[i]);
+        }
+    }
+
+    return filtrati;
+}
+
+
+console.log(filtraPerCategoria('Electronics'));
+console.log(filtraPerCategoria('Clothes'));
+console.table(filtraPerCategoria('Electronics'));
+console.table(filtraPerCategoria('Clothes'));
+
+
 /* VERSIONE INTERMEDIA — Filtro disponibilità e rating
    Funzione che genera un array filtrato dall'array prodotti, mostrando soltanto i prodotti disponibili con rating >= 3
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/*function filtraDisponibili(prodotti) {
+function filtraDisponibili(prodotti) {
     const filtrati = [];
 
     for (let i = 0; i < prodotti.length; i++) {
         const prodotto = prodotti[i];
 
-           const parteIntera = prodotto.rating[0];
-
-        if (prodotto.avaible === 'Disponibile' && parteIntera >= 3) {
+        if (prodotto.avaible === 'Disponibile' && prodotto.rating >= 3) {
             filtrati.push(prodotto);
         }
     }
 
     return filtrati;
-}*/
+}
 
+const disponibili = filtraDisponibili(prodotti);
+console.log(disponibili);
+console.table(disponibili);
 
 /* --------------------------------------------------------------
 
