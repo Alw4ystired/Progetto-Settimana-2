@@ -216,6 +216,15 @@ console.table(disponibili);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 
+
+
+
+//ESEGUITO NEL FILE seconda.js
+
+
+
+
+
 /* VERSIONE AVANZATA — Aggiungi al carrello
    Quando si clicca il bottone "Aggiungi al carrello", incrementa il contatore
    nell'header (Carrello (0) → Carrello (1) → ...).

@@ -333,3 +333,62 @@ button {
   color: #ffffff;
   text-decoration: underline;
 }
+
+/* Seconda pagina */
+
+.prodotti-tabella {
+  width: 100%;
+  padding: 25px 15px;
+  /* NIENTE font-size: 0 — la tabella ha bisogno del font normale */
+}
+
+.prodotti-tabella h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.prodotti-tabella table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.prodotti-tabella thead {
+  background-color: #232f3e;
+  color: #ffffff;
+}
+
+.prodotti-tabella th,
+.prodotti-tabella td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.prodotti-tabella tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.prodotti-tabella tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.all-btn {
+  display: inline-block;
+  background-color: #FEBD69;
+  color: #111;
+  border: 1px solid #FEBD69;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: inherit;
+  cursor: pointer;
+  margin: 20px 15px;
+  text-decoration: none; 
+  text-align: center;
+}
+
+.all-btn:hover {
+  background-color: #f3a847;
+}
