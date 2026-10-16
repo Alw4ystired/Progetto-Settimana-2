@@ -12,6 +12,12 @@ body {
   background: #fff;
 }
 
+main{
+  max-width: 960px;
+  margin: auto;
+}
+
+
 img {
   max-width: 100%;
   display: block;
