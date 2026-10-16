@@ -123,6 +123,15 @@ const prodotti = [
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+function formattaPrezzo(prezzo) {
+    return '€ ' + prezzo;
+}
+
+for (const prodotto of prodotti) {
+    console.log(prodotto.name + ': ' + formattaPrezzo(prodotto.price));
+}
+
+
 
 /* VERSIONE INTERMEDIA — stelline(rating)
    Funzione che ritorna una stringa di stelline piene/vuote.
